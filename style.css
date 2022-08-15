@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,li{
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    border: 1px solid white;
+    height: 100vh;
+}
+.main-section{
+    width: 100vw;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header{
+    background-color: #1f2937;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.navbar ul li a{
+    color: #e5e7eb;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.section-1{
+    background-color: #1f2937;
+}
+.section-1 .container{
+    background-color: #1f2937;
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+    flex: auto;
+}
+.photo img{
+    width: 300px;
+    height: auto;
+}
+.info h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+.info p {
+    margin-top: 8px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.btn{
+    margin-top: 10px;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    padding: 8px 30px ;
+    background-color: #3883f6;
+    color: #e5e7eb;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.section-2 .container{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
+.section-2 .container h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+.section-2 .boxes{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boxes .box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3883f6;
+    border-radius: 5px;
+}
+.section-3{
+    background-color: #e5e5e5;
+}
+.section-3 .container{
+    padding: 80px;
+}
+.section-3 .container p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.section-3 .container span{
+    display: block;
+    font-weight: bold ;
+    margin-right: 35px;
+    margin-top: -35px;
+    padding: 20px;
+    text-align: end;
+}
+.section-4 .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #3883f6;
+}
+.sec-3-info h3{
+    color: #f9faf8;
+}
+.sec-3-info p{
+    color: #e5e7eb;
+}
+.sec-3-btn{
+    border: 1px solid white;
+    font: bold;
+}
+.footer{
+    background-color: #1f2937;
+}
+.footer .container{
+    color: #f9faf8;
+    text-align: center;
+}
